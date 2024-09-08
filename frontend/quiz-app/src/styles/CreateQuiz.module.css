@@ -38,7 +38,7 @@
 }
 
 .formCard {
-  width: 50rem;
+  width: 100%;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
   padding: 3rem;
   border-radius: 24px;
@@ -64,17 +64,19 @@
   cursor: pointer; /* Cursor changes to pointer on hover */
   /* transition: background-color 0.3s ease; Smooth transition for hover */
   width: 50%;
+  align-self: center;
   align-items: center;
-  margin: 10px 10px 10px 70px;
+  margin-top: 10px ;
 }
 
 .questionCard {
-  width: 600px;
+  width: 100%;
+  margin-top: 10px;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 
   border-radius: 24px;
   background-color: #a9d8f2;
-  margin: 0 auto;
+
 }
 .questionaire {
   padding: 2rem 1rem;
