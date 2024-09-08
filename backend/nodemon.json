@@ -1,0 +1,15 @@
+{
+  "env": {
+    "CONNECTION_STRING": "mongodb+srv://myuser:abcd@mycluster.twqc0pp.mongodb.net/quizAppData?retryWrites=true&w=majority&appName=mycluster",
+    "PORT": 3002,
+    "SECRET_KEY": "<ENCRYPTION_SECRET>",
+    "USER": "aimanusmani.campk12@gmail.com",
+    "PASS": "javh wypo oqwn vrmd",
+    "HOST": "smtp.gmail.com",
+    "BASE_URL": "localhost:3002",
+    "CORS_ORIGIN_URL":"localhost:3000"
+  },
+  "watch": ["src"],
+  "ext": "ts,json",
+  "exec": "ts-node ./src/app.ts"
+}

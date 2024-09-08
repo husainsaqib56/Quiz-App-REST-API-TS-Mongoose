@@ -1,0 +1,104 @@
+.main {
+  /* background-color: #2b71a4;
+    height: 80vw; */
+}
+
+.heading {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inika", sans-serif, bold;
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.pageHeader {
+  margin: 2rem 10rem;
+  border: 1px sold;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  border-radius: 50px;
+  padding: 5rem;
+}
+
+.pageContent {
+  /* display: flex; */
+  justify-content: space-between;
+  align-items: center;
+  margin: 3rem auto;
+}
+
+.imageContainer {
+  > img {
+    border-radius: 50%;
+    /* margin: 10px 50px 50px 100p; */
+    position: relative;
+    /* top: 78px; */
+    left: 10rem;
+  }
+}
+
+.formCard {
+  width: 50rem;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  padding: 3rem;
+  border-radius: 24px;
+  background-color: #419fd3;
+  /* position: relative; */
+  /* top: 80px; */
+  right: 200px;
+  margin: 0 auto;
+}
+.quizForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+.btn {
+  background-color: #a6e2e2; /* Background color */
+  color: #000000; /* Text color */
+  border: none; /* Remove default border */
+  padding: 10px 20px; /* Padding for size */
+  font-size: 16px; /* Font size */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Cursor changes to pointer on hover */
+  /* transition: background-color 0.3s ease; Smooth transition for hover */
+  width: 50%;
+  align-items: center;
+  margin: 10px 10px 10px 70px;
+}
+
+.questionCard {
+  width: 600px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+
+  border-radius: 24px;
+  background-color: #a9d8f2;
+  margin: 0 auto;
+}
+.questionaire {
+  padding: 2rem 1rem;
+}
+
+.inputField {
+  display: flex;
+  align-items: center;
+  justify-content: normal;
+  gap: 1rem;
+}
+
+.quesField {
+  width: 180%;
+}
+.optionRowOne {
+  display: flex;
+  flex-direction: column;
+  flex-direction: row;
+
+  width: 50%;
+  margin: 10px 10px 10px 10px;
+}
+.optionRowTwo {
+  display: flex;
+  flex-direction: column;
+}
